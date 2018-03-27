@@ -1,0 +1,52 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	/*фон*/
+	background: url('Untitled66-3.png') no-repeat  #e0ffee center center fixed;
+	background-size: cover;
+}
+
+img{
+	max-width: 30%;
+	height: auto;
+	width: auto/9; /*ie8*/
+	-moz-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	-webkit-transition: all 3s ease-out;
+
+
+
+} 
+
+/*GROW*/
+.grow img {
+   height: 100px;
+   width: 200px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+
+
+}
+ 
+.grow img:hover {
+   height: 120px;
+   width: 240px;
+  /*   -webkit-filter: blur(1px);*/
+    -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+    
+    
+      -webkit-filter: brightness(100%);
+ 
+}
