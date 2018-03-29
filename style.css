@@ -1,6 +1,6 @@
 @font-face {
-	src: url(adventure.ttf);
-	font-family: Adventure;
+	src: url(blackout-2am.ttf);
+	font-family: Blackout-2am;
 }
 *{
 	margin: 0;
@@ -29,15 +29,15 @@ img{
 	display: table;
 }
 .block1 {
-	height: 85vh;
+	height: 100vh;
 }
 .main {
 	width: 700px;
 	height: 400px;
-	background-color: green;
+	/*background-color: green;*/
 	margin: auto;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 20px;
 }
 .main_text {
 	width: 100%;
@@ -45,46 +45,85 @@ img{
 	margin-top: 140px;	
 	text-align: center;
 	font-size: 50px;
-	font-family: Adventure;
+	font-family: Blackout-2am;
+	color: #15352B;
 }
+
 .imgs {
 	position: absolute;
-	height: 100px;
-    width: 200px;
+	height: 105px;
+    width: 180px;
 	display: inline-block;
-	background-color: red;
-	border-radius: 50%;
+	/*background-color: red;*/
+	border-radius:100%;
+	  -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 } 
-.im1 {
-	top: 60px;
-	left: 60px;
+
+.imgs:hover {
+	position: absolute;
+	height: 125px;
+    width: 215px;
+     -webkit-transform: rotate(-6deg);
+     -moz-transform: rotate(-6deg);
+       -o-transform: rotate(-6deg);
+      -ms-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+}
+
+.tracking {
+	top: 20px;
+	left: 430px;
+	position: absolute;
 	background-image: url("Untitled68-2.png");
 	background-size: cover;
 }
-/*GROW*/
-.grow img {
-   height: 100px;
-   width: 200px;
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
 
-
+.message {
+	top: 20px;
+	left: 95px;
+	position: absolute;
+	background-image: url("Untitled68.png");
+	background-size: cover;
 }
- 
-.grow img:hover {
-   height: 120px;
-   width: 240px;
-  /*   -webkit-filter: blur(1px);*/
-    -webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-    
-    
-      -webkit-filter: brightness(100%);
- 
+
+.im3 {
+	position: absolute;
+	top: 5px;
+	left: 264px;
+	background-image: url("Untitled68-1.png");
+	background-size: cover;
+}
+.im4 {
+	top: 250px;
+	left: 180px;
+	position: absolute;
+	background-image: url("Untitled68-3.png");
+	background-size: cover;
+}
+
+.im5 {
+	top: 250px;
+	left: 340px;
+	position: absolute;
+	background-image: url("Untitled68-4.png");
+	background-size: cover;
+}
+
+.im6 {
+	top: 200px;
+	left: 30px;
+	position: absolute;
+	background-image: url("Untitled68-4.png");
+	background-size: cover;
+}
+
+.im7 {
+	top: 200px;
+	left: 485px;
+	position: absolute;
+	background-image: url("Untitled68.png");
+	background-size: cover;
 }
