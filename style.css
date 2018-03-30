@@ -13,6 +13,11 @@
 /*******************************************/
 
 
+
+
+
+
+/*************** FOUNDATIONS ****************/
 *{
 	margin: 0;
 	padding: 0;
@@ -30,9 +35,16 @@ body{
 	content: '';
 	display: table;
 }
-.block1 {
-	height: 100vh;
-}
+
+/****************************************************/
+
+
+
+
+
+
+/******************* STRUCTURES *******************/
+
 .main {
 	width: 700px;
 	height: 400px;
@@ -41,6 +53,24 @@ body{
 	position: relative;
 	margin-top: 20px;
 }
+
+.block1 {
+	height: 100vh;
+}
+
+.menu {
+	width: 216px;
+	background-color: rgb(0, 0, 255, 0.93);
+	position: absolute;
+	padding: 15px;
+	border-radius: 10px;
+/*	visibility: hidden;*/
+
+}
+
+/********************************************/
+
+
 
 
 
@@ -64,7 +94,33 @@ body{
 	font-family: BungeeInline-Regular;
 	color: #15352B;
 }
+
+.title {
+	width: 100%;
+	height: 60px;
+	font-size: 17px;
+	text-align: center;
+	/*font-family: Blackout-2am;*/
+	/*color: #15352B;*/
+	color: white;
+	font-weight: 600;
+}
+
+.block_of_text {
+	width: 100%;
+	height: 60px;
+	font-size: 13px;
+	text-align: center;
+    margin-top: 7%; 
+    position: relative;
+    color: white;
+ 
+	/*font-family: Blackout-2am;*/
+	/*color: #15352B;*/
+}
 /*********************************************/
+
+
 
 
 
@@ -76,7 +132,9 @@ body{
 	position: absolute;
 	background-image: url("1.png");
 	background-size: cover;
+	z-index: 2;
 }
+
 
 .tracking {
 	top: 0px;
@@ -84,6 +142,7 @@ body{
 	position: absolute;
 	background-image: url("2.png");
 	background-size: cover;
+	z-index: 0;
 }
 
 .mensuration {
@@ -92,6 +151,7 @@ body{
 	left: 430px;
 	background-image: url("3.png");
 	background-size: cover;
+	z-index: 0;
 }
 .notification {
 	top: 180px;
@@ -99,7 +159,9 @@ body{
 	position: absolute;
 	background-image: url("4.png");
 	background-size: cover;
+	z-index: 0;
 }
+
 
 .alarms {
 	top: 200px;
@@ -107,6 +169,7 @@ body{
 	position: absolute;
 	background-image: url("5.png");
 	background-size: cover;
+	z-index: 0;
 }
 
 .mail {
@@ -115,10 +178,14 @@ body{
 	position: absolute;
 	background-image: url("6.png");
 	background-size: cover;
+	z-index: 0;
 }
 
 
 /**************************************************/
+
+
+
 
 
 
@@ -138,8 +205,8 @@ body{
 
 .imgs:hover {
 	position: absolute;
-	height: 125px;
-    width: 215px;
+	height: 100px;
+    width: 172px;
      -webkit-transform: rotate(-6deg);
      -moz-transform: rotate(-6deg);
        -o-transform: rotate(-6deg);
@@ -159,4 +226,35 @@ img{
 	
 }
 
+
+
+.message: hover{
+.menu{
+	visibility: visible;
+}
+
+}
+
 /***********************************************/
+
+
+
+
+/***********  MENU CHOOSE BLOCKS  ****************/
+
+.menu_message {
+	top: 70px;
+	left: 220px;
+	z-index: 1;
+	height: 240px;
+}
+
+#message1 {
+	margin-top: 20px;	
+}
+
+
+
+
+
+/*************************************************/
