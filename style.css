@@ -1,7 +1,18 @@
+
+/**************** FONTS *******************/
 @font-face {
-	src: url(blackout-2am.ttf);
-	font-family: Blackout-2am;
+	src: url("blackout-2am.ttf");
+	font-family: "Blackout-2am"; 	
 }
+
+@font-face {
+    src: url("bungeeInline-regular.ttf");
+	font-family: "BungeeInline-Regular";	
+}
+
+/*******************************************/
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,16 +24,7 @@ body{
 	background-size: cover;
 }
 
-img{
-	display: inline-block;
-	max-width: 30%;
-	height: auto;
-	width: auto/9; /*ie8*/
-	-moz-transition: all 3s ease-out;
-	-o-transition: all 3s ease-out;
-	-webkit-transition: all 3s ease-out;
-	
-}
+
 .clearfix {
 	clear: both;
 	content: '';
@@ -39,20 +41,92 @@ img{
 	position: relative;
 	margin-top: 20px;
 }
+
+
+
+/************** TEXT **********************/
 .main_text {
 	width: 100%;
 	height: 60px;
-	margin-top: 140px;	
+	margin-top: 100px;	
 	text-align: center;
 	font-size: 50px;
 	font-family: Blackout-2am;
 	color: #15352B;
 }
 
+.small_text {
+	width: 100%;
+	height: 60px;
+	margin-top: -20px;	
+	text-align: center;
+	font-size: 15px;
+	font-family: BungeeInline-Regular;
+	color: #15352B;
+}
+/*********************************************/
+
+
+
+/******** BLOCKS (MAIN MENU) ***************/
+
+.message {
+	top: 20px;
+	left: 125px;
+	position: absolute;
+	background-image: url("1.png");
+	background-size: cover;
+}
+
+.tracking {
+	top: 0px;
+	left: 277px;
+	position: absolute;
+	background-image: url("2.png");
+	background-size: cover;
+}
+
+.mensuration {
+	position: absolute;
+	top: 20px;
+	left: 430px;
+	background-image: url("3.png");
+	background-size: cover;
+}
+.notification {
+	top: 180px;
+	left: 125px;
+	position: absolute;
+	background-image: url("4.png");
+	background-size: cover;
+}
+
+.alarms {
+	top: 200px;
+	left: 277px;
+	position: absolute;
+	background-image: url("5.png");
+	background-size: cover;
+}
+
+.mail {
+	top: 180px;
+	left: 430px;
+	position: absolute;
+	background-image: url("6.png");
+	background-size: cover;
+}
+
+
+/**************************************************/
+
+
+
+/*********  BLOCKS (ANIMATION)  ****************/
 .imgs {
 	position: absolute;
-	height: 105px;
-    width: 180px;
+	height: 74px;
+    width: 126px;
 	display: inline-block;
 	/*background-color: red;*/
 	border-radius:100%;
@@ -73,57 +147,16 @@ img{
           transform: rotate(-6deg);
 }
 
-.tracking {
-	top: 20px;
-	left: 430px;
-	position: absolute;
-	background-image: url("Untitled68-2.png");
-	background-size: cover;
+
+img{
+	display: inline-block;
+	max-width: 30%;
+	height: auto;
+	width: auto/9; /*ie8*/
+	-moz-transition: all 3s ease-out;
+	-o-transition: all 3s ease-out;
+	-webkit-transition: all 3s ease-out;
+	
 }
 
-.message {
-	top: 20px;
-	left: 95px;
-	position: absolute;
-	background-image: url("Untitled68.png");
-	background-size: cover;
-}
-
-.im3 {
-	position: absolute;
-	top: 5px;
-	left: 264px;
-	background-image: url("Untitled68-1.png");
-	background-size: cover;
-}
-.im4 {
-	top: 250px;
-	left: 180px;
-	position: absolute;
-	background-image: url("Untitled68-3.png");
-	background-size: cover;
-}
-
-.im5 {
-	top: 250px;
-	left: 340px;
-	position: absolute;
-	background-image: url("Untitled68-4.png");
-	background-size: cover;
-}
-
-.im6 {
-	top: 200px;
-	left: 30px;
-	position: absolute;
-	background-image: url("Untitled68-4.png");
-	background-size: cover;
-}
-
-.im7 {
-	top: 200px;
-	left: 485px;
-	position: absolute;
-	background-image: url("Untitled68.png");
-	background-size: cover;
-}
+/***********************************************/
