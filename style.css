@@ -68,6 +68,32 @@ body{
 
 }
 
+
+.line{
+ 	width: 100%; 
+ 	height: 485px; 
+ 	margin: auto;
+ 	position: relative;
+}
+
+.for_funcion{
+	background-color: green; 
+	width: 400px; 
+	height: 400px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.for_photo{
+	background-color: yellow; 
+	width: 400px; 
+	height: 400px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
 /********************************************/
 
 
@@ -121,7 +147,7 @@ body{
 /*********************************************/
 
 
-
+ 
 
 
 /******** BLOCKS (MAIN MENU) ***************/
@@ -133,6 +159,7 @@ body{
 	background-image: url("1.png");
 	background-size: cover;
 	z-index: 2;
+
 }
 
 
@@ -226,15 +253,6 @@ img{
 	
 }
 
-
-
-.message: hover{
-.menu{
-	visibility: visible;
-}
-
-}
-
 /***********************************************/
 
 
@@ -258,3 +276,42 @@ img{
 
 
 /*************************************************/
+
+
+/***************** BLOCKS *************************/
+
+
+          /********* ONE *********/
+
+.text_left: {
+	top:45px;  
+	left:40px;
+ 	position: absolute;
+
+}
+
+.text_right: {
+
+	top:45px;  
+	right:40px;
+ 	position: absolute;
+
+}
+
+.photo_right{
+	top:45px; 
+	right:40px;
+	position: absolute;
+}
+
+.photo_left{
+	top:45px; 
+	left:40px;
+	position: absolute;
+}
+
+
+/***********************/
+
+
+/***************************************************/
