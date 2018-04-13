@@ -76,9 +76,9 @@ body{
  	position: relative;
 }
 
-.for_funcion{
+.for_function{
 	background-color: green; 
-	width: 400px; 
+	width: 500px; 
 	height: 400px;  
 	margin: auto;
 	position: absolute;
@@ -87,11 +87,22 @@ body{
 
 .for_photo{
 	background-color: yellow; 
-	width: 400px; 
-	height: 400px;  
+	width: 300px; 
+	height: 300px;  
 	margin: auto;
 	position: absolute;
 	display: inline-block;
+}
+
+.hint{
+
+	background-color: orange; 
+	width: 30px; 
+	height: 30px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+
 }
 
 /********************************************/
@@ -299,14 +310,26 @@ img{
 }
 
 .photo_right{
-	top:45px; 
-	right:40px;
+	top:80px; 
+	right:80px;
 	position: absolute;
 }
 
 .photo_left{
-	top:45px; 
-	left:40px;
+	top:80px; 
+	left:80px;
+	position: absolute;
+}
+
+.hint_right{
+	top:10px; 
+	right:10px;
+	position: absolute;
+}
+
+.hint_left{
+	top:10px; 
+	left:10px;
 	position: absolute;
 }
 
