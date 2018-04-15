@@ -22,12 +22,12 @@
 	margin: 0;
 	padding: 0;
 }
-
+/*
 body{
-	/*фон*/
+	
 	background: url('Untitled66-3.png') no-repeat  #e0ffee center center fixed;
 	background-size: cover;
-}
+}*/
 
 
 .clearfix {
@@ -46,12 +46,26 @@ body{
 /******************* STRUCTURES *******************/
 
 .main {
-	width: 700px;
-	height: 400px;
+	width:1077px; 
+	height: 500px;
 	/*background-color: green;*/
 	margin: auto;
+	position: static;
+	margin-top: 0px;
+	background-image: url("Untitled66-3.png");
+	background-size: cover;
+
+}
+
+.houses{
+	width:1073px; 
+	height: 540px;
+/*	background-color: green;*/
+	margin: auto;
 	position: relative;
-	margin-top: 20px;
+	margin-top: -260px;
+	background-image: url("Untitled66-4.png");
+	background-size: cover;
 }
 
 .block1 {
@@ -64,34 +78,15 @@ body{
 	position: absolute;
 	padding: 15px;
 	border-radius: 10px;
-	/*visibility: hidden;*/
 
 }
 
 
 .line{
  	width: 100%; 
- 	height: 485px; 
- 	margin: auto;
+ 	height: 385px; 
+ /*	margin: auto;*/
  	position: relative;
-}
-
-.for_function{
-	background-color: green; 
-	width: 500px; 
-	height: 400px;  
-	margin: auto;
-	position: absolute;
-	display: inline-block;
-}
-
-.for_photo{
-	/*background-color: yellow;*/
-	width: 350px; 
-	height: 350px;  
-	margin: auto;
-	position: absolute;
-	display: inline-block;
 }
 
 
@@ -156,7 +151,7 @@ body{
 
 .message {
 	top: 20px;
-	left: 160px;
+	left: 350px;
 	position: absolute;
 	background-image: url("1.png");
 	background-size: cover;
@@ -168,7 +163,7 @@ body{
 
 .tracking {
 	top: 0px;
-	left: 312px;
+	left: 500px;
 	position: absolute;
 	background-image: url("2.png");
 	background-size: cover;
@@ -178,14 +173,14 @@ body{
 .mensuration {
 	position: absolute;
 	top: 20px;
-	left: 465px;
+	left: 650px;
 	background-image: url("3.png");
 	background-size: cover;
 	z-index: 8;
 }
 .notification {
 	top: 180px;
-	left: 160px;
+	left: 350px;
 	position: absolute;
 	background-image: url("4.png");
 	background-size: cover;
@@ -195,7 +190,7 @@ body{
 
 .alarms {
 	top: 200px;
-	left: 312px;
+	left: 500px;
 	position: absolute;
 	background-image: url("5.png");
 	background-size: cover;
@@ -204,7 +199,7 @@ body{
 
 .mail {
 	top: 180px;
-	left: 465px;
+	left: 650px;
 	position: absolute;
 	background-image: url("6.png");
 	background-size: cover;
@@ -269,7 +264,7 @@ img{
 
 .menu_message1 {
 	top: 70px;
-	left: 220px;
+	left: 425px;
 	z-index: 11;
 	height: 240px;
 	visibility: hidden;
@@ -278,7 +273,7 @@ img{
 
 .menu_message2 {
 	top: 50px;
-	left: 365px;
+	left: 575px;
 	z-index: 9;
 	height: 210px;
 	visibility: hidden;
@@ -288,7 +283,7 @@ img{
 
 .menu_message3 {
 	top: 70px;
-	left: 525px;
+	left: 725px;
 	z-index: 7;
 	height: 210px;
 	visibility: hidden;
@@ -296,7 +291,7 @@ img{
 
 .menu_message4 {
 	top: 233px;
-	left: 220px;
+	left: 425px;
 	z-index: 5;
 	height: 175px;
 	visibility: hidden;
@@ -304,7 +299,7 @@ img{
 
 .menu_message5 {
 	top: 240px;
-	left: 365px;
+	left: 575px;
 	z-index: 3;
 	height: 200px;
 	visibility: hidden;
@@ -312,7 +307,7 @@ img{
 
 .menu_message6 {
 	top: 233px;
-	left: 525px;
+	left: 725px;
 	z-index: 1;
 	height: 180px;
 	visibility: hidden;
@@ -342,15 +337,36 @@ img{
 
 .photo_right{
 	top:70px; 
-	right: 80px;
+	right: 180px;
 	position: absolute;
 }
 
 .photo_left{
 	top:70px; 
-	left: 80px;
+	left: 180px;
 	position: absolute;
 }
+
+
+.for_function{
+	background-color: green; 
+	width: 500px; 
+	height: 300px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.for_photo{
+	/*background-color: yellow;*/
+	width: 250px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+
 
 
 
@@ -358,45 +374,257 @@ img{
 
 
 
-/*********************      *************************/ 
+/*********************  LINES  *************************/ 
 
-.message_photo{
+
+		/********** PINK **************/
+
+.pink_form{
 	position: absolute;
-	background-image: url("1.png");
-	background-size: cover;
-}
-
-.tracking_photo {
-	position: absolute;
-	background-image: url("2.png");
-	background-size: cover;
-}
-
-
-.mensuration_photo {
-	position: absolute;
-	background-image: url("3.png");
-	background-size: cover;
-}
-.notification_photo {
-	position: absolute;
-	background-image: url("4.png");
-	background-size: cover;
-}
-
-
-.alarms_photo {
-	position: absolute;
-	background-image: url("5.png");
-	background-size: cover;
-}
-
-.mail_photo {
-	position: absolute;
-	background-image: url("6.png");
+	background-image: url("pink_form.png");
 	background-size: cover;
 }
 
 
 
-/*****************************************************/
+.pink_frame{
+	position: absolute;
+	background-image: url("pink_frame.png");
+	background-size: cover;
+}
+
+
+.pink_emblem{
+	position: absolute;
+	background-image: url("pink_emblem.png");
+	background-size: cover;
+}
+
+
+.pink_line{
+	background-image: url("pink_background.png");
+	background-size: cover;
+}
+
+.for_pink_icons{
+	background-image: url("pink_icons.png");
+	background-size: cover; 
+	width: 450px; 
+	height: 300px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.pink_photo{
+	/*background-color: yellow;*/
+	width: 250px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.pink_position{
+	top:70px; 
+	right: 400px;
+	position: absolute;
+}
+
+
+		/******************************/
+
+
+
+
+		/************* GREEN *************/
+.green_form{
+	position: absolute;
+	background-image: url("green_form.png");
+	background-size: cover;
+}
+
+
+
+.green_frame{
+	position: absolute;
+	background-image: url("green_frame.png");
+	background-size: cover;
+}
+
+
+.green_emblem{
+	position: absolute;
+	background-image: url("green_emblem.png");
+	background-size: cover;
+}
+
+.green_line{
+	background-image: url("green_background.png");
+	background-size: cover;
+}
+
+.for_green_icons{
+	background-image: url("green_icons.png");
+	background-size: cover; 
+	width: 450px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.green_photo{
+	width: 250px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.green_position{
+	top:70px; 
+	right: 180px;
+	position: absolute;
+}
+
+		/**************************/
+
+
+
+
+
+		/************* ORANGE *************/
+.orange_form{
+	position: absolute;
+	background-image: url("orange_form.png");
+	background-size: cover;
+}
+
+
+
+.orange_frame{
+	position: absolute;
+	background-image: url("orange_frame.png");
+	background-size: cover;
+}
+
+
+.orange_emblem{
+	position: absolute;
+	background-image: url("orange_emblem.png");
+	background-size: cover;
+}
+
+.orange_line{
+	background-image: url("orange_background.png");
+	background-size: cover;
+}
+
+.for_orange_icons1{
+	background-image: url("orange_icons1.png");
+	background-size: cover; 
+	width: 390px; 
+	height: 310px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.for_orange_icons2{
+	background-image: url("orange_icons2.png");
+	background-size: cover; 
+	width: 210px; 
+	height: 130px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.orange_photo{
+	width: 250px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.orange_position{
+	top:70px; 
+	right: 130px;
+	position: absolute;
+}
+
+		/**************************/
+
+
+
+
+		/************* BLUE *************/
+.blue_form{
+	position: absolute;
+	background-image: url("blue_form.png");
+	background-size: cover;
+}
+
+
+
+.blue_frame{
+	position: absolute;
+	background-image: url("blue_frame.png");
+	background-size: cover;
+}
+
+
+.blue_emblem{
+	position: absolute;
+	background-image: url("blue_emblem.png");
+	background-size: cover;
+}
+
+.blue_line{
+	background-image: url("blue_background.png");
+	background-size: cover;
+}
+
+.for_blue_icons1{
+	background-image: url("blue_icons1.png");
+	background-size: cover; 
+	width: 320px; 
+	height: 210px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.for_blue_icons2{
+	background-image: url("blue_icons2.png");
+	background-size: cover; 
+	width: 210px; 
+	height: 130px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.blue_photo{
+	width: 250px; 
+	height: 250px;  
+	margin: auto;
+	position: absolute;
+	display: inline-block;
+}
+
+.blue_position{
+	top:70px; 
+	left: 130px;
+	position: absolute;
+}
+
+		/**************************/
+
+
+
+/***********************************************************************/
+
+   
