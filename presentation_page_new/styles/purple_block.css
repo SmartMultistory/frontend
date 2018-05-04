@@ -53,7 +53,7 @@
 	display: inline-block;
 /*	background-color: green;*/
 }
-
+/*//////////////////////////////////////////////*/
 .purple_frame{
 	position: absolute;
 	background-image: url("../image/blocks/orange/orange_frame.png");
@@ -71,7 +71,7 @@
 	background-image: url("../image/blocks/orange/orange_form.png");
 	background-size: cover;
 }
-
+/*////////////////////////////////////////////////////////*/
 .purple_lateral_line{
 	background-image: url("../image/blocks/orange/orange_lateral_line.png");
 	background-size: cover; 
@@ -80,6 +80,64 @@
 	display: inline-block;
 
 }
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+.purple_logo::frame{
+	position: absolute;
+	background-image: url("../image/blocks/orange/orange_frame.png");
+	background-size: cover;
+}
+
+.purple_logo::emblem{
+	position: absolute;
+	background-image: url("../image/blocks/orange/orange_emblem.png");
+	background-size: cover;
+}
+
+.purple_logo::form{
+	position: absolute;
+	background-image: url("../image/blocks/orange/orange_form.png");
+	background-size: cover;
+}
+
+
+
+.purple_logo::form,
+.purple_logo::emblem,
+.purple_logo::frame{
+	width: 20vw;
+	height: 20vw;
+	top:7vw; 
+	right: 17vw;
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .purple_icons1_placing{
@@ -136,10 +194,11 @@
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;
 }
-
+/*////////////////////////*/
 .purple_position{
 	width: 20vw;
 	height: 20vw;
 	top:7vw; 
 	right: 17vw;
 }
+/*/////////////////////////*/
