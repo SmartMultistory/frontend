@@ -27,7 +27,7 @@
 
 .border{
 	background-color: rgb(238, 232, 234);
-	border: 0.05vw solid rgb(103, 92, 97);
+	box-shadow: 0 0.03vw 0vw 0.03vw rgb(103, 92, 97);
 }
 
 
@@ -37,7 +37,7 @@
 }
 
 .icone_home{
-	background-image: url("../images/Untitled85-11.png");
+	background-image: url("../images/Untitled85-15.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	
@@ -56,10 +56,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
-
 }
-
-
 
 
 
@@ -97,6 +94,32 @@
 	background-size: cover;
 	background-position: center bottom;
 }
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+/*.one:hover{
+	left: 5vw;
+}
+
+
+.tree:hover{
+	left: 44vw;
+}
+
+.four:hover{
+	left: 63.5vw;
+}
+
+.five:hover{
+	left:83vw;
+}*/
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+
+
 
 
 
@@ -220,7 +243,12 @@
 }
 
 .two{
-	top: 12vw;
+width: 6.5vw; 
+height: 6.5vw; 
+left: 1.25vw; 
+top: 11.25vw;
+position: absolute;
+
 }
 
 .tree{
@@ -344,7 +372,11 @@
 }
 
 .two{
-	left: 24.5vw;
+	width: 16vw;
+	height: 16vw;
+	top:6vw;
+	left: 23vw;
+	position: absolute;
 }
 
 .tree{
@@ -358,6 +390,5 @@
 .five{
 	left:83vw;
 }
-
 }	
 
