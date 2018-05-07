@@ -2,10 +2,7 @@
 	width: 100%;
 	height:  33vw;
 	position: relative;
-	background-image: url("../image/blocks/orange/orange_background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+	background-color: rgb(236, 227, 253);
 	overflow: hidden;
 }
 
@@ -84,15 +81,7 @@
 
 
 
-
-
 /*
-
-
-
-
-
-
 .purple_logo::frame{
 	position: absolute;
 	background-image: url("../image/blocks/orange/orange_frame.png");
@@ -122,53 +111,32 @@
 	right: 17vw;
 }
 
-
-
-
 */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
 .purple_icons1_placing{
-	width: 45vw; 
+	width: 30vw; 
 	height: 30vw;
-	bottom: -1vw;
-	left: -6vw;  
+	bottom: 0vw;
+	left: 0vw;  
 }
 
 .purple_icons2_placing{
-	width: 20vw; 
-	height: 13.33vw;
-	top: -0.37vw;
-	right: -1vw;
+	width: 13vw; 
+	height: 13vw;
+	top: 0vw;
+	right: 0vw;
 }
 
-.purple_underscore_placing{
-	width: 29vw; 
-	height: 9.4vw;
-	top:13vw;  
-	left:32vw; 
+/*.purple_underscore_placing{
+	width: 36vw; 
+	height: 18vw;
+	top:0.5vw;  
+	left:-0.5vw; 
 
-}
-
-.purple_underscore2_placing{
-	width: 29vw; 
-	height:20vw;
-	top:0vw;  
-	left:0vw; 
-
-}
+}*/
 
 .purple_lateral_line_placing{
 	width: 2vw; 
@@ -178,18 +146,18 @@
 }
 
 .purple_text_placing{
-	width: 34vw; 
-	height: 4vw; 
+	width:42vw; 
+	height: 5vw; 
 	top: 13vw;  
-	left: 27vw; 
+	left: 22vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;
 }
 
 .purple_text_placing:hover{
-	width: 38vw; 
-	height: 4vw; 
+	width: 46vw; 
+	height: 5vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;

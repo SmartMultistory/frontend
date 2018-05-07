@@ -2,20 +2,17 @@
 	width: 100%;
 	height:  33vw;
 	position: relative;
-	background-image: url("../image/blocks/pink/pink_background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+	background-color: rgb(252, 232, 239);
 	overflow: hidden;
 }
 
 .pink_icons{
-	background-image: url("../image/blocks/pink/pink_icons.png");
+	background-image: url("../image/blocks/pink/Untitled86.png");
 	background-size: cover; 
 	position: absolute;
 	display: inline-block;
 	margin: auto;
-/*	background-color: green;*/
+
 }
 
 .pink_underscore1{
@@ -74,38 +71,38 @@
 
 
 .pink_icons_placing{
-	width: 55vw; 
-	height: 31.42vw;
+	width: 30vw; 
+	height: 30vw;
 	bottom: 0vw;
-	right: -9vw;  
+	right: 0vw;  
 }
 
 .pink_underscore1_placing{
 	width: 20vw; 
 	height: 1vw;
 	top:5vw;  
-	left:3vw; 
+	left:0vw; 
 }
 
 .pink_underscore2_placing{
 	width: 30vw; 
 	height: 1vw;
 	top:21vw;  
-	left:8vw; 
+	left:5vw; 
 }
-
+/*
 .pink_lateral_line_placing{
 	width: 2vw; 
 	height: 33vw; 
 	top:0vw;  
     left:3vw;
-}
+}*/
 
 .pink_text_placing{
 	width: 35vw; 
 	height: 8.23vw; 
 	top: 10vw;  
-	left: 8vw; 
+	left: 5vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;

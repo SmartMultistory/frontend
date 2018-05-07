@@ -2,39 +2,36 @@
 	width: 100%;
 	height:  33vw;
 	position: relative;
-	background-image: url("../image/blocks/red/red_background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+	background-color: rgb(213, 245, 253);
 	overflow: hidden;
 }
 
 .light_blue_icons{
-/*	background-image: url("../image/blocks/red/red_icons.png");*/
+	background-image: url("../image/blocks/red/red_icons.png");
 	background-size: cover; 
 	position: absolute;
 	display: inline-block;
 	margin: auto;
-	background-color: pink;
+/*	background-color: pink;*/
 }
 
 .light_blue_underscore1{
-/*	background-image: url("../image/blocks/red/red_underscore1.png");*/
+	background-image: url("../image/blocks/red/red_underscore2.png");
 	background-size: cover;  
 	margin: auto;
 	position: absolute;
 	display: inline-block;
-	background-color: green;
+/*	background-color: green;*/
 }
 
 
 .light_blue_text{
-/*	background-image: url("../image/blocks/red/red_text.png");*/
+	background-image: url("../image/blocks/red/red_text.png");
 	background-size: cover; 
 	margin: auto;
 	position: absolute;
 	display: inline-block;
-	background-color: red;
+
 }
 
 .light_blue_frame{
@@ -66,17 +63,17 @@
 
 
 .light_blue_icons_placing{
-	width: 40vw; 
-	height: 15vw;
+	width: 41vw; 
+	height: 24vw;
 	bottom: 0vw;
-	right: 23vw;  
+	right: 26vw;  
 }
 
 .light_blue_underscore1_placing{
-	width: 25vw; 
-	height: 20vw;
-	top:4vw;  
-	right:2vw; 
+	width: 26vw; 
+	height: 15vw;
+	top:7vw;  
+	right:3vw; 
 }
 
 
@@ -89,18 +86,18 @@
 }
 
 .light_blue_text_placing{
-	width: 35vw; 
-	height: 4vw; 
+	width: 50vw; 
+	height: 6vw; 
 	top: 10vw;  
-	left: 58vw; 
+	left:  38vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;
 }
 
 .light_blue_text_placing:hover{
-	width: 39vw; 
-	height: 4vw; 
+	width: 54vw; 
+	height: 6vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;

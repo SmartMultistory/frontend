@@ -2,10 +2,7 @@
 	width: 100%;
 	height:  33vw;
 	position: relative;
-	background-image: url("../image/blocks/green/green_background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+	background-color: rgb(219, 233, 232);
 }
 
 .gray_icons{

@@ -2,20 +2,17 @@
 	width: 100%;
 	height:  33vw;
 	position: relative;
-	background-image: url("../image/blocks/purple/purple_background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+	background-color: rgb(228, 243, 219);
 	overflow: hidden;
 }
 
 .green_icons{
-	/*background-image: url("../image/blocks/purple/purple_icons.png");*/
+	background-image: url("../image/blocks/purple/purple_icons.png");
 	background-size: cover; 
 	position: absolute;
 	display: inline-block;
 	margin: auto;
-	background-color: green;
+/*	background-color: green;*/
 
 }
 
@@ -67,8 +64,8 @@
 
 
 .green_icons_placing{
-	width: 20vw; 
-	height: 27vw;
+	width: 25vw; 
+	height: 25vw;
 	bottom: 0vw;
 	left: 3vw;  
 }
@@ -79,21 +76,21 @@
 .green_underscore2_placing{
 	width: 30vw; 
 	height: 18vw;
-	top:8.5vw;  
+	top:10vw;  
 	right:1vw; 
 }
 
-.green_lateral_line_placing{
+/*.green_lateral_line_placing{
 	width: 2vw; 
 	height: 33vw; 
 	top:0vw;  
     left:25vw;
-}
+}*/
 
 .green_text_placing{
-	width: 40vw; 
-	height: 5vw; 
-	top: 13vw;  
+	width: 44vw; 
+	height: 10vw; 
+	top: 11vw;  
 	left: 52vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
@@ -101,8 +98,8 @@
 }
 
 .green_text_placing:hover{
-	width: 44vw; 
-	height: 5vw; 
+	width: 48vw; 
+	height: 10vw; 
 	-moz-transition: all 0.25s ease-out;
 	-o-transition: all 0.25s ease-out;
 	-webkit-transition: all 0.25s ease-out;

@@ -2,10 +2,7 @@
 	width: 100%;
 	height: 45vw;
 	position: relative;
-	background-image: url("../image/attachments/Untitled66-2.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
+    background-color: rgb(193, 234, 239);
 	overflow: hidden;
 }
 
