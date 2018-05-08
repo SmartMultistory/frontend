@@ -33,14 +33,6 @@
 /*	background-color: green;*/
 }
 
-.pink_text{
-	background-image: url("../image/blocks/pink/pink_text.png");
-	background-size: cover; 
-	margin: auto;
-	position: absolute;
-	display: inline-block;
-/*	background-color: green;*/
-}
 
 .pink_frame{
 	position: absolute;
@@ -103,17 +95,11 @@
 	height: 8.23vw; 
 	top: 10vw;  
 	left: 5vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
-
-.pink_text_placing:hover{
-	width: 38vw; 
-	height: 9.17vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
 .pink_position{

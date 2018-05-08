@@ -25,14 +25,6 @@
 }
 
 
-.light_blue_text{
-	background-image: url("../image/blocks/red/red_text.png");
-	background-size: cover; 
-	margin: auto;
-	position: absolute;
-	display: inline-block;
-
-}
 
 .light_blue_frame{
 	position: absolute;
@@ -88,19 +80,13 @@
 .light_blue_text_placing{
 	width: 50vw; 
 	height: 6vw; 
-	top: 10vw;  
-	left:  38vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
-
-.light_blue_text_placing:hover{
-	width: 54vw; 
-	height: 6vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
+	top: 12vw;  
+	left:  51vw; 
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
 .light_blue_position{

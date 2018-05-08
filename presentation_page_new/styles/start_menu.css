@@ -65,6 +65,12 @@
 } 
 
 
+
+.imgs a{
+	height: 100%;
+	display: block;
+}
+
 .imgs:hover {
 	position: absolute;
      -webkit-transform: rotate(-6deg);

@@ -42,15 +42,6 @@
 
 }*/
 
-.blue_text{
-	background-image: url("../image/blocks/blue/blue_text.png");
-	background-size: cover; 
-	margin: auto;
-	position: absolute;
-	display: inline-block;
-/*	background-color: green;*/
-}
-
 .blue_frame{
 	position: absolute;
 	background-image: url("../image/blocks/blue/blue_frame.png");
@@ -115,22 +106,17 @@
 }
 
 .blue_text_placing{
-	width: 45vw; 
+	width: 50vw; 
 	height: 6vw; 
-	top: 13vw;  
+	top: 14.5vw;  
 	left: 37vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
-.blue_text_placing:hover{
-	width: 49vw; 
-	height: 6vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
 
 .blue_position{
 	width: 20vw;

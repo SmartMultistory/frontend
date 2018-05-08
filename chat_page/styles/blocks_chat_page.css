@@ -1,0 +1,60 @@
+
+
+.icone_board{
+	background-image: url("../images/green_icons.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}	
+
+
+
+
+
+
+@media only screen and (max-width : 1920px) and (min-width : 800px){
+
+.icone_board{
+	width: 35vw;
+	height: 19vw;
+	bottom:  0vw;
+	right: 0vw;
+	position: absolute;
+}	
+
+.chat_block{
+	width: 55vw;
+	height: 96vw;
+	top: 4vw;
+	left: 10vw;
+	background-color: 
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width : 800px) and (min-width : 600px){
+
+.retreat{
+	width: 5vw;
+	height: 2vw;
+	top: 85vw;
+	left: 5vw;
+	position: absolute;
+}
+}
+
+
+
+@media only screen and (max-width : 600px) and (min-width : 176px){
+
+}

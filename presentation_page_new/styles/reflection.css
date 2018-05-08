@@ -18,54 +18,37 @@
 
 }
 
-.reflection_text{
-	background-image: url("../image/blocks/some_elem/start_phrase.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center bottom;
-	position: absolute;
-}
+
 
 
 @media only screen and (max-width : 1920px) and (min-width : 800px){
 .reflection_text_placing{
 	width: 55vw;
 	height: 7vw;
-	top: 35vw; 
+	top: 37vw; 
 	left: 4vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-/*	background-color: green;*/
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
-.reflection_text_placing:hover{
-	width: 58vw;
-	height: 7.5vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
+
 }
 @media only screen and (max-width : 800px) and (min-width : 600px){
 .reflection_text_placing{
 	width: 65vw;
 	height: 8vw;
-	top: 35vw; 
+	top: 37vw; 
 	left: 4vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-/*	background-color: green;*/
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
-.reflection_text_placing:hover{
-	width: 70vw;
-	height:9vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
 }
 
 
@@ -74,19 +57,14 @@
 .reflection_text_placing{
 	width: 80vw;
 	height: 9vw;
-	top: 35vw; 
+	top: 37vw; 
 	left: 4vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-/*	background-color: green;*/
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
 
-.reflection_text_placing:hover{
-	width: 85vw;
-	height:9vw;
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
-}
+
 } 

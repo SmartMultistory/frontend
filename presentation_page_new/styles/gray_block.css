@@ -23,14 +23,6 @@
 /*	background-color: green;*/
 }
 
-.gray_text{
-	background-image: url("../image/blocks/green/green_text.png");
-	background-size: cover; 
-	margin: auto;
-	position: absolute;
-	display: inline-block;
-/*	background-color: green;*/
-}
 
 .gray_frame{
 	position: absolute;
@@ -84,12 +76,15 @@
 .gray_text_placing{
 	width: 40vw; 
 	height: 5vw; 
-	top: 7vw;  
-	left: 13vw; 
-	-moz-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-	-webkit-transition: all 0.25s ease-out;
+	top: 8vw;  
+	left: 14vw; 
+	line-height: 2vw;
+	font-size: 3vw;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0.15vw 1vw rgb(0, 0, 0);
+	position: absolute;
 }
+
 
 .gray_text_placing:hover{
 	width: 44vw; 
