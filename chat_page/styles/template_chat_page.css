@@ -150,6 +150,7 @@
 	width: 10vw;
 	height: 100vh;
 	position: relative;
+
 }
 
 
@@ -364,7 +365,7 @@
 }
 
 .one{
-	left: 5vw;
+	left: 4vw;
 	width: 16vw;
 	height: 16vw;
 	top:6vw;
@@ -372,7 +373,7 @@
 }
 
 .two{
-	left: 23vw;
+	left: 25vw;
 }
 
 .tree{
