@@ -37,7 +37,7 @@
 	right: 0.5vw;
 	position: absolute;
 }	
-}
+
 
 
 .staircase_line{
@@ -69,6 +69,7 @@
 	left: 15vw;
 	top: 10vw;
 	position: absolute;
+	overflow: hidden;
 }
 
 .entrance_block{
@@ -88,9 +89,7 @@
 	position: absolute;
 	box-shadow: 0.03vw 0 2vw 0.03vw rgb(179, 170, 173);
 }
-
-
-
+}
 
 
 @media only screen and (max-width : 800px) and (min-width : 600px){

@@ -22,7 +22,16 @@ of his contact information ( email, phone number, social network page etc.)">
 @media only screen and (max-width : 800px) and (min-width : 600px){}
 @media only screen and (max-width : 600px) and (min-width : 176px){} -->
 
-
+<style>
+#container {
+    margin: 0px auto;
+}
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+}
+</style>
 
 
 <body>
@@ -34,7 +43,9 @@ of his contact information ( email, phone number, social network page etc.)">
 		<div class="shadow"></div>
 		<div class="shadow1"></div>
 		<div class="staircase_line"><span>Staircase</span></div>
-		<div class="staircase_block"></div>
+		<div class="staircase_block" id="container" style="	width: 33.01vw; height: 24vw; position: absolute;">
+			    <video autoplay="true" id="videoElement"> </video>
+		</div>
 		<div class="entrance_line"><span>Entrance</span></div>
 		<div class="entrance_block"></div>
 		<div class="retreat"></div>
@@ -72,7 +83,6 @@ of his contact information ( email, phone number, social network page etc.)">
 
 
 			<div class="border">
-																		<!-- ВСТАВИТИ СИЛКУ -->
 
 					<div class="under_home">
 						<div class="icone_home"></div>
@@ -90,9 +100,24 @@ of his contact information ( email, phone number, social network page etc.)">
 
 
 			</div>
+			
 
-
-	
-
-</body>
-</html>
+<script>
+	var video = document.querySelector("#videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia
+ || navigator.webkitGetUserMedia || navigator.mozGetUserMedia
+ || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    // do something
+}
+</script>
