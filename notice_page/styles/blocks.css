@@ -101,6 +101,8 @@
 
 @media only screen and (max-width : 1920px) and (min-width : 800px){
 
+
+
 /*/////////////////   EDIT ONLY THIS   ///////////////////////*/
 .basis{
 	width: 55vw;
@@ -160,6 +162,92 @@
 	line-height: 3vw;
 	font-size: 1.5vw;
 }
+
+
+.advertisement{
+	top: 2vw;
+	left: 5vw;
+	width: 45vw;
+	height: 25vw;
+	position: absolute;
+	background-color: rgb(227, 242, 253);
+	box-shadow: 0.03vw 0 2vw 0.03vw rgb(30, 30, 30);
+	overflow: hidden; 
+}
+
+
+.title{
+
+	top: 1vw;
+	left: 3vw;
+	width: 39vw;
+	height: 3vw;
+	position: absolute;
+	/*background-color: rgb(253, 253, 253);*/
+	border: 0.1vw solid rgb(161, 161, 161);
+
+
+	/*////////////////////////////*/
+
+	color: rgb(161, 161, 161);
+	text-align: center; 
+	line-height: 3vw;
+	font-size: 1.8vw;
+
+
+	/*////////////////////////////*/
+}
+
+
+.text{
+
+	top: 5vw;
+	left: 3vw;
+	width: 39vw;
+	height: 15vw;
+	position: absolute;
+	background-color: rgb(253, 253, 253);
+	border: 0.1vw solid rgb(161, 161, 161);
+
+
+	/*////////////////////////////*/
+
+	color: rgb(161, 161, 161);
+	text-align: center; 
+	line-height: 3vw;
+	font-size: 1vw;
+
+
+	/*////////////////////////////*/
+}
+
+
+
+.delete{
+
+	bottom: 1vw;
+	right: 2vw;
+	width: 5vw;
+	height: 2vw;
+	position: absolute;
+	border: 0.1vw solid rgb(161, 161, 161);
+
+
+
+
+	background-color: rgb(207, 139, 165);
+	color: rgb(163, 67, 103);
+	text-align: center; 
+	line-height: 1.05vw;
+	font-size: 1vw;
+
+
+}
+
+
+
+
+
 
 
 /*///////////////////////////////////////////////////////////////*/
