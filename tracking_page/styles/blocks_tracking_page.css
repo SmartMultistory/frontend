@@ -38,6 +38,12 @@
 	position: absolute;
 }	
 
+#container{
+	width: 33.01vw; 
+	height: 24vw; 
+	position: absolute;
+}
+
 
 
 .staircase_line{
@@ -106,6 +112,7 @@
 }
 
 
+
 .entrance_line{
 	width: 45vw;
 	height: 3vw;
@@ -123,6 +130,7 @@
 	left: 5vw;
 	top: 28vw;
 	position: absolute;
+		overflow: hidden;
 }
 
 .entrance_block{
@@ -175,6 +183,7 @@
 	left: 12vw;
 	top: 31vw;
 	position: absolute;
+		overflow: hidden;
 }
 
 
