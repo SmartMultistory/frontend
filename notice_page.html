@@ -31,11 +31,7 @@ of his contact information ( email, phone number, social network page etc.)">
 
 			<div class="icone_board"></div>
 
-			<div class="basis">  <!-- ТІНЬ -->
-
-
-
-
+	<div class="basis">  <!-- ТІНЬ -->
 
 
 							         <!---------------------------- РЕДАГУВАТИ ТІЛЬКИ ЦЮ ЧАСТИНУ ------------------------->
@@ -46,14 +42,26 @@ of his contact information ( email, phone number, social network page etc.)">
 
 																	
 				<div class="board_scroll">  <!-- БОРДЕР З КНОПКАМИ -->
-						<div class="left_button">Add alert</div>   <!-- КНОПКА ДОДАТИ ОГОЛОШЕННЯ(ПРИ НАТИСКУ ГЕНЕРУЄТЬСЯ БЛОК З КЛАСОМ  advertisement , МОЖЕШ ДО НЬОГО ДОДАТИ ID) -->
+						<div class="left_button">
+							<a href="#openModal"><font>Add alert</font></a>
+						</div>   <!-- КНОПКА ДОДАТИ ОГОЛОШЕННЯ(ПРИ НАТИСКУ ГЕНЕРУЄТЬСЯ БЛОК З КЛАСОМ  advertisement , МОЖЕШ ДО НЬОГО ДОДАТИ ID) -->
 						<div class="right_button">Clear board</div>    <!-- КНОПКА ВИДАЛИТИ УСІ ОГОЛОШЕННЯ(ПРИ НАТИСКУ ВИДАЛЯЮТЬСЯ УСІ ОГОЛОШЕННЯ З КЛАСОМ advertisement АБО ТВОЇМ ID) -->
 				</div>
 
 
 
+				<div id="openModal" class="modalDialog">
+					<div>
+						<input class="input_style1" style="	margin-top:2vw;" type="text" name="" required placeholder="Write a notification header" pattern="[A-Za-zА-Яа-яЁё]" maxlength="35">
+						<textarea  class="input_style2" style="	margin-top: 7vw;" type="text" name="" required placeholder="Describe your notification"  pattern="[A-Za-zА-Яа-яЁё0-9]" maxlength="300"></textarea>
+						<input class="input1" type="submit" value="Save" alt="Input">
+						<input class="input2" type="submit" value="Close" alt="Input">
+					</div>
+				</div>
 
-			<div class="scroll_block">   <!-- БЛОК В ЯКОМУ САМЕ БУДУТЬ ПОЯВЛЯТИСЬ САМЕ ЦІ ПОВІДОМЛЕННЯ З КЛАСОМ advertisement  АБО ТВОЇМ ID  -->
+
+
+		<div class="scroll_block">   <!-- БЛОК В ЯКОМУ САМЕ БУДУТЬ ПОЯВЛЯТИСЬ САМЕ ЦІ ПОВІДОМЛЕННЯ З КЛАСОМ advertisement  АБО ТВОЇМ ID  -->
 					
 
 						<div class="advertisement" id=""> <!--   ОСЬ БЛОК З КЛАСОМ advertisement (ТИ МОЖЕШ В НЬОМУ ВКАЗАТИ  ID ДЛЯ СКРИПТІВ) САМЕ ЙОГО ТРЕБА ГЕНЕРУВАТИ ПРИ НАЖАТІ НА КНОПКУ  -->
@@ -63,8 +71,8 @@ of his contact information ( email, phone number, social network page etc.)">
 						</div>
 
 
-				</div>
 			</div>
+	</div>
 			
 
 

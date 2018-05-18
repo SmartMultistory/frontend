@@ -104,6 +104,9 @@
 
 
 /*/////////////////   EDIT ONLY THIS   ///////////////////////*/
+
+
+
 .basis{
 	width: 55vw;
 	height: 33vw;
@@ -142,11 +145,26 @@
 	position: absolute;
 	background-color: rgb(207, 139, 165);
 	box-shadow: 0.1vw 0 0 rgb(216, 116, 151);
+}
+
+.left_button a {
 	color: rgb(163, 67, 103);
+	font-size: 1.5vw;
+	height: 100%;
+	text-decoration: none;
+    display: block;
 	text-indent: 3vw; 
 	line-height: 3vw;
-	font-size: 1.5vw;
 }
+
+.left_button: hover{
+	background-color: rgb(229, 162, 186);
+}
+
+
+
+
+
 
 
 .right_button{
@@ -224,35 +242,94 @@
 
 
 .delete{
-
 	bottom: 1vw;
 	right: 2vw;
 	width: 5vw;
 	height: 2vw;
 	position: absolute;
 	border: 0.1vw solid rgb(161, 161, 161);
-
-
-
-
 	background-color: rgb(207, 139, 165);
 	color: rgb(163, 67, 103);
 	text-align: center; 
 	line-height: 1.05vw;
 	font-size: 1vw;
+}
 
 
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 60vw;
+    height: 30vw;
+    position: relative;
+    margin: 10% auto;
+    top: -3vw;
+    border-radius: 10px;
+    background: rgb(196, 111, 143);
+    background: -moz-linear-gradient(rgb(196, 111, 143), rgb(115, 47, 72));
+    background: -webkit-linear-gradient(rgb(196, 111, 143), rgb(115, 47, 72));
+    background: -o-linear-gradient(rgb(196, 111, 143), rgb(115, 47, 72));
+}
+
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+
+.input_style1{
+	border: 0.1vw solid rgb(160, 164, 164);
+	background-color: rgb(233, 236, 236);
+	position: absolute;
+	width: 35vw;
+	height: 3vw;
+	margin-left: 12.5vw;
+}
+
+
+.input_style2{
+	border: 0.1vw solid rgb(160, 164, 164);
+	background-color: rgb(233, 236, 236);
+	position: absolute;
+	width: 35vw;
+	height: 15vw;
+	margin-left: 12.5vw;
+}
+
+.input1{
+	position: absolute;
+	width: 7vw;
+	height: 2.5vw;
+	bottom:  3vw;
+	right: 5vw;
+	color: rgb(61, 61, 61);
+}
+
+.input2{
+	position: absolute;
+	width: 7vw;
+	height: 2.5vw;
+	bottom:  3vw;
+	left:  5vw;
+	color: rgb(61, 61, 61);
 }
 
 
 
-
-
-
-
 /*///////////////////////////////////////////////////////////////*/
-
-
 
 
 
